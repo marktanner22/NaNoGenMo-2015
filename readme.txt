@@ -3,8 +3,8 @@ website: www.marktanner.org
 contact: admin@marktanner.org
 
 the novel is a series of questions and answers. 
-the question is in the form of "what is noun X"
-where noun X is a noun in the answer of the previous question.
+the question is in the form of "what is X?"
+where X is a noun in the answer of the previous question.
 the first question is "what is love?"
 there can be no duplicate questions
 answers must be short and concise
