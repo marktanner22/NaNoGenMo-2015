@@ -10,6 +10,17 @@ using System.Xml.Linq;
 
 namespace novel_generator_2
 {
+    //written by Mark Tanner
+    //website: www.marktanner.org
+    //contact: admin@marktanner.org
+
+    //the novel is a series of questions and answers. 
+    //the question is in the form of "what is noun X"
+    //where noun X is a noun in the answer of the previous question.
+    //the first question is "what is love?"
+    //there can be no duplicate questions
+    //answers must be short and concise
+
     //i had a lot of trouble creating code that ran in less than 1000 years.
     //my breakthrough was this:
     //lets say we have the noun "tree", and "tree" only exists in the definition
@@ -21,11 +32,6 @@ namespace novel_generator_2
     //noun that appears in the least of amount definitions.
     //when we are counting how many definitions a noun exists in, we only count definitions
     //of nouns that havent been chosen yet.
-    //i.e. if the word "cat" exists in the definitions of 17 other nouns, and 15 of those other
-    //nouns have already been chosen, then "cat" only has a score or 2, and will beat a lot of
-    //other words, even though it is objectively common.
-    //put another way, we choose the noun with the least amount of active paths to it, minimizing 
-    //its chance of dying. 
 
     class Program
     {
